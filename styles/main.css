@@ -36,6 +36,17 @@ img-pic{
   padding: 15px;
 }
 
+.column2 {
+  float: left;
+  width: 50%;
+  height:100px;
+}
+
+.column3 {
+  float: left;
+  width: 33.3%;
+  height:100px;
+}
 .column4 {
   float: left;
   width: 25%;
