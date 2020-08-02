@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>The Computer Science Department</title>
+	<link rel="shortcut icon" href="../images/favicon.ico">
+	<link rel="stylesheet" href="../styles/main.css">
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+</head>
+
+<body>
+	<header>	
+		<img class="img-left" src="../images/aum1.jpeg" alt="logo1" width="120">
+		<img class="img-right" src="../images/aum2.png" alt="logo2" width="120">
+		<h1 class="calign">Computer Science</h1>
+		<h2 class="calign"> Auburn University at Montgomery </h3>
+	</header>
+	
+	<div class="hbar">
+		<a class="hbar-item hbar-color" href="../index.html" >Home</a>
+		<a class="hbar-item hbar-color" href="description.html" >Description</a>
+		<a class="hbar-item hbar-color" href="people.html" >People</a>
+		<a class="hbar-item hbar-color" href="labs.html" >Labs</a>
+		<a class="hbar-item hbar-color" href="courses.html" >Courses</a>
+		<a class="hbar-item hbar-color" href="forms.html" >Teaching Assistant</a>
+		<a class="hbar-item hbar-color" href="cgpa.html" >Compute GPA</a>
+		<a class="hbar-item hbar-color" href="contact.html" >Contact Us</a>
+	</div>
+
+	<main>
+                <form name="myform" action="survey.html" method="get">
+                    <h1>Student Details</h1>
+                    </br>
+                    <label for="studentname">Name:</label>
+                    <input type="text" name="studentname" id="studentname" required pattern="[A-z ]{4,32}"  placeholder="Minimum Two characters"><br> 
+                    </br>
+                    
+                    <label for="studentid">ID:</label>
+                    <input type="text" name="studentid" id="studentid" required pattern="\d{5,10}" placeholder="Five digits" ><br>
+                    
+                    </br>
+                    <label for="gpa">GPA:</label>
+                    <input type="digit" name="gpa" id="gpa" required pattern="\d{1,2}" placeholder="digits"><br>
+
+                    </br>
+                    <label for="gender">Gender:</label> </br>
+                    <label class="choice" for="r1">Male</label>
+                    <input type="radio" name="gender" id="r1" value="male"> </br> 
+
+                    <label class="choice" for="r2">female</label>
+                    <input type="radio" name="gender" id="r2" value="female"> </br>
+
+                    </br>
+                    </br>
+                    <label for="sdate">Submission date:</label>
+                    <input type="date" name="sdate" id="sdate"><br>
+                    
+                    </br>
+                    <label for="comment">Comments:</label>
+                    <textarea rows="4" cols="50" name="comment" id="comment"> </textarea>
+
+                    </br>
+                    </br>
+                    <input type="submit" name="button" id="button" value="Submit">
+                    <input type="reset" name="reset" id="reset">
+                    </form>
+	</main>
+	<footer >
+		<p>&copy; 2018 Dharshana Danda</p>
+	</footer>
+</body>
+</html>
+
+
+
+
+

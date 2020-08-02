@@ -14,6 +14,30 @@ body {
   box-shadow:         0 6px 6px 10px black;
 }
 
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width : 70%;
+    margin: 5%;
+}
+thead {
+    background-color:  #606060;
+}
+th, td {
+    border: 2px solid black;
+    padding: .2em 1em .2em .5em;
+    text-align: left;
+    vertical-align: middle;
+}
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+.thick {
+font-weight: bold;
+}
 .calign{
   text-align : center;
 }
@@ -21,7 +45,10 @@ body {
   height: 10%;
 }
 img-pic{
-  position:static;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
 }
 .img-left{
   float:left;
@@ -123,35 +150,7 @@ main{
   padding-right:80px;
   padding-top: 20px;
   padding-bottom: 20px;
-  height:800px;
-}
-
-label {
-  color: black;
-  float: left;
-  width: 15em;
-  padding-left: 2em;
-  font-weight: bold;
-  text-align: left;
-}
-
-input {
-  width: 15em;
-  margin: 0 0 1em 1em;
-}
-.choice{
-  padding-left: 10em;
-}
-[type="radio"] {
-      width: 20px;
-      margin : 0.5em;
-}
-#button, #reset {
-  width: 7em;
-  background-color: silver;
-  box-shadow: 2px 2px 0 blue; }
-  #button {
-  margin-left: 9em;
+  height:1280px;
 }
 
 
